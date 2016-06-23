@@ -1,0 +1,26 @@
+html, body, .container-table {
+    height: 100%;
+}
+.container-table {
+}
+#login{
+	padding : 5px;
+}
+#login input{
+	margin-bottom:5px;
+}
+#login .login-btn-group{
+	display:block;
+}
+#login .btn{ 
+	width: 49%; 
+	height: 32px; 
+	font-size: 13px;
+}
+.vertical-center {
+ min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+ min-height: 100vh; /* These two lines are counted as one :-)       */
+
+ display: flex;
+ align-items: center;
+}
